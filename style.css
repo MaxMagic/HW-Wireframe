@@ -4,7 +4,7 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
-    position: fixed;
+
 }
 header,
 nav,
@@ -21,6 +21,11 @@ footer {
 article {
     color: #ebebeb;
     background: #777;
+    height: 60px;
+    position: relative;
+    top: 35px;
+    left: 5px;
+    width: 281px;
 }
 
 h1, p {
@@ -44,6 +49,7 @@ section {
     margin-right: 5px;
     margin-left: 240px;
     height: 100px;
+    position: relative;
 }
 
 aside {
@@ -54,4 +60,25 @@ aside {
 aside,
 section {
     display: inline-block;
+}
+
+.small_section1 {
+    height: 20px;
+    position: relative;
+    top: -15px;
+    right: 10px;
+    left: 15px;
+    width: 261px;
+    background: #ebebeb;
+    margin-bottom: 5px;
+}
+
+.small_section2 {
+    height: 20px;
+    position: relative;
+    top: -15px;
+    right: 10px;
+    left: 15px;
+    width: 261px;
+    background: #ebebeb;
 }
