@@ -6,3 +6,29 @@ body {
     font-size: 18px;
 }
 
+div {
+    margin: auto;
+    width: 495px;
+}
+
+.back_color {
+    background: #ebebeb;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    padding: 50px;
+}
+
+.margins {
+    margin: 20px;
+}
+
+aside {
+    float: left;
+}
+
+.article {
+    position: absolute;
+}
