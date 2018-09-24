@@ -3,7 +3,7 @@ body {
     color: #777;
     background: #777;
     width: 960px;
-    font-size: 18px;
+    font-size: 10px;
 
 }
 
@@ -13,7 +13,7 @@ section,
 aside,
 footer {
     background: #ebebeb;
-    height: 50px;
+    height: 75px;
     width: 495px;
     margin: auto;
     width: 50%;
@@ -22,7 +22,7 @@ footer {
 article {
     color: #ebebeb;
     background: #777;
-    height: 70px;
+    height: 105px;
     position: relative;
     top: 25px;
     left: 5px;
@@ -42,31 +42,35 @@ h1, p {
 
 .third_sect {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 section {
     width: 291px;
     margin-right: 5px;
     margin-left: 240px;
-    height: 100px;
+    height: 150px;
     position: relative;
 }
 
 aside {
-    width: 179px;
-    height: 100px;
+    width: 181px;
+    height: 150px;
+    
 }
 
 aside,
 section {
     display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
 }
 
 .small_section1 {
-    height: 20px;
+    height: 30px;
     position: relative;
-    top: -30px;
+    top: -50px;
     right: 10px;
     left: 15px;
     width: 261px;
@@ -75,9 +79,9 @@ section {
 }
 
 .small_section2 {
-    height: 20px;
+    height: 30px;
     position: relative;
-    top: -30px;
+    top: -50px;
     right: 10px;
     left: 15px;
     width: 261px;
@@ -88,6 +92,6 @@ header,
 nav,
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 35px;
     box-sizing: border-box;
 }
