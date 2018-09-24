@@ -5,3 +5,25 @@ body {
     width: 960px;
     font-size: 18px;
 }
+header,
+nav,
+section,
+aside,
+footer {
+    background: #ebebeb;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+
+}
+
+.stan_width {
+    width: 495px;
+}
