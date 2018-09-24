@@ -11,6 +11,8 @@ section,
 aside,
 footer {
     background: #ebebeb;
+    height: 50px;
+    width: 495px;
 }
 
 article {
@@ -24,6 +26,26 @@ h1, p {
 
 }
 
-.stan_width {
-    width: 495px;
+.stan_marg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.third_sect {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 291px;
+    height: 100px;
+    margin-right: 5px;
+    float: left;
+}
+
+aside {
+    width: 194px;
+    height: 100px;
+    margin-left: 5px;
+    float: left;
 }
